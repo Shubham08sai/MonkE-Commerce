@@ -15,8 +15,6 @@ public class Cart {
     private double totalAmount;
     private List<CartItem> items = new ArrayList<>();
 
-
-
     public boolean containsProduct(Long productId) {
         if (items == null || items.isEmpty()) {
             return false;

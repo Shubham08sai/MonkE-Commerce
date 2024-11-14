@@ -10,4 +10,5 @@ import lombok.NoArgsConstructor;
 public class CouponDiscountResponse {
     private Long couponId;
     private double discount;
+
 }

@@ -71,7 +71,6 @@ public class CouponService {
 
     private boolean isCouponApplicable(Coupon coupon, Cart cart) {
         // Implement your logic for different coupon types
-        // For example, check if cart total is above a threshold for cart-wise coupons,
         // or check if required products are in the cart for product-wise coupons.
         if (coupon.getType().equals("cart-wise")) {
             return cart.getTotalAmount() > coupon.getConditions().getMinCartValue();

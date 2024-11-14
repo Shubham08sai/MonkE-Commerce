@@ -30,7 +30,6 @@ public class Conditions {
     private Integer freeGetQuantity; // Number of "get" products to be free
     private Integer repetitionLimit; // Max times the BxGy coupon can be applied
 
-
     public Double getMinCartValue() { return minCartValue; }
 
     public String getRequiredProduct() { return requiredProduct; }

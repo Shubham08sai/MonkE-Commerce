@@ -24,11 +24,4 @@ public class DiscountDetails {
     private List<String> getArray; // for BxGy
     private Integer repetitionLimit; // for BxGy
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 }

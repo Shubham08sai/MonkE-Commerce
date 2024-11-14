@@ -52,7 +52,6 @@ public class CouponController {
         return ResponseEntity.noContent().build();
     }
 
-
     @PostMapping("/applicable-coupons")
     public ResponseEntity<List<CouponDiscountResponse>> getApplicableCoupons(@RequestBody Cart cart) {
         logger.info("Received request to get applicable coupons for cart: {}", cart);

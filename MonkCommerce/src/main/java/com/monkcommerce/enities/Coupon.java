@@ -15,7 +15,7 @@ public class Coupon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String type; // e.g., "cart-wise", "product-wise", "BxGy"
+    private String type;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "discount_details_id")
     private DiscountDetails discountDetails;
